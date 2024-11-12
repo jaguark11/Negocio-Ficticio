@@ -4,7 +4,6 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Estilos para el encabezado y pie de página */
 header, footer {
     background-color: #333;
     color: #fff;
@@ -16,9 +15,7 @@ h1, h2 {
     margin-top: 1rem;
 }
 
-/* Galería de imágenes */
-img.img-fluid {
-    margin: 15px;
+img.img-fluid, .card-img-top {
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -32,10 +29,4 @@ form#contactForm {
 .card {
     border: none;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
 }
