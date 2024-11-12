@@ -30,3 +30,11 @@ form#contactForm {
     border: none;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
