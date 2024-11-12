@@ -26,3 +26,13 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+document.addEventListener("scroll", function() {
+    const fadeElements = document.querySelectorAll(".fade-in");
+    fadeElements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight) {
+            el.classList.add("show");
+        }
+    });
+});
+
